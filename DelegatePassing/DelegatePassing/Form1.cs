@@ -62,6 +62,9 @@ namespace DelegatePassing
 
             // Make the delegate reference the SetToZero method.
             operation = SetToZero;
+            value = 500.0;
+            ShowResult(ref value, operation);
+
 
             // Pass value and the delegate to ShowResult.
             ShowResult(ref value, operation);
